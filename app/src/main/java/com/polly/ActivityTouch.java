@@ -50,7 +50,7 @@ public class ActivityTouch extends AppCompatActivity implements RecognitionListe
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent("com.baidu.speech.asr.demo.setting");
+                Intent intent = new Intent("com.polly.setting");
                 startActivity(intent);
             }
         });

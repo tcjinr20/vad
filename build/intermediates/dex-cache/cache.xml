@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\Polly\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a6237b8ff4f96ce796a0ca13f7c2d0054e6c0f88">
+        <dex dex="C:\Users\Administrator\Desktop\Polly\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_54458b1517dd9e7e51ebab3fcdc63d5eca22023c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\Polly\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\Administrator\Desktop\Polly\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_21c365189be8af243cc14e3469563a44924790e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\Polly\app\libs\VoiceRecognition-2.2.1027.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f9b1c29b100261e0c7243d5328766f340be9a58">
+        <dex dex="C:\Users\Administrator\Desktop\Polly\app\build\intermediates\transforms\dex\debug\folders\1000\2\VoiceRecognition-2.2.1027_362bb746f97875f07fa080a444577f7fe7f63462\classes.dex" />
+    </item>
+
+</items>

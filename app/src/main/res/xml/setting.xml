@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="常用">
+        <CheckBoxPreference
+            android:key="api"
+            android:defaultValue="false"
+            android:title="使用Api"
+            android:summary="可以通过两种方式使用SDK：无界面的API；有预定义界面的对话框"/>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="tips_sound"
+            android:summary=""
+            android:title="提示音"/>
+        <ListPreference
+            android:key="nlu"
+            android:entries="@array/nlu_list"
+            android:entryValues="@array/nlu_list"
+            android:title="语义解析"
+            android:summary=""
+            android:defaultValue="@string/nlu_default"
+            android:dialogTitle="语义解析"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

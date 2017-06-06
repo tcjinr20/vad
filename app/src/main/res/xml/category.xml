@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="root_sreen">
+    <Preference android:title="普通模式">
+    <intent
+        android:targetClass="com.polly.ApiActivity"
+        android:targetPackage="com.polly">
+    </intent>
+    </Preference>
+    <Preference android:title="点按模式">
+        <intent
+            android:targetClass="com.polly.ActivityTouch"
+            android:targetPackage="com.polly">
+        </intent>
+    </Preference>
+
+</PreferenceScreen>

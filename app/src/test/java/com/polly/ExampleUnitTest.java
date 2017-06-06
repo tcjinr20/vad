@@ -1,4 +1,4 @@
-package polly.vad;
+package com.polly;
 
 import org.junit.Test;
 

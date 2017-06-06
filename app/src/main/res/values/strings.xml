@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">vad</string>
+    <string name="app_name">Polly</string>
+    <string name="setting">设置</string>
+    <string name="start"></string>
+    <string name="nlu_default">开始</string>
+    <string-array name="nlu_list">
+        <item>@string/nlu_default</item>
+        <item>disable, 禁用语义解析</item>
+        <item>enable, 开启语义解析</item>
+    </string-array>
 </resources>

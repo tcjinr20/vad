@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".ApiActivity" />
         <activity android:name=".ActivityTouch" />
-        <activity android:name=".Setting"></activity>
+        <activity android:name=".Setting" />
+        <activity android:name=".TTSActivity"></activity>
     </application>
 
 </manifest>

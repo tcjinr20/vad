@@ -8,4 +8,6 @@
         <item>disable, 禁用语义解析</item>
         <item>enable, 开启语义解析</item>
     </string-array>
+    <string name="wifiOn">wifi on</string>
+    <string name="wifiOff">wifi off</string>
 </resources>

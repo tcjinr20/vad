@@ -7,7 +7,7 @@ import android.preference.PreferenceManager;
 
 import com.polly.R;
 
-public class MainActivity extends PreferenceActivity {
+public class BdActivity extends PreferenceActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

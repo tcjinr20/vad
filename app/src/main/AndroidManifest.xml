@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.baidu.MainActivity">
+        <activity android:name="com.baidu.BdActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,8 @@
         <activity android:name="com.baidu.ApiActivity" />
         <activity android:name="com.baidu.ActivityTouch" />
         <activity android:name="com.baidu.Setting" />
-        <activity android:name="com.baidu.TTSActivity"></activity>
+        <activity android:name="com.baidu.TTSActivity" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

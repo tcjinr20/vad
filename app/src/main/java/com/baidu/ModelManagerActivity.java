@@ -1,7 +1,7 @@
 /**
  * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
  */
-package com.polly;
+package com.baidu;
 
 import java.util.HashSet;
 import java.util.List;
@@ -18,6 +18,7 @@ import com.baidu.tts.client.model.ModelFileBags;
 import com.baidu.tts.client.model.ModelInfo;
 import com.baidu.tts.client.model.ModelManager;
 import com.baidu.tts.client.model.OnDownloadListener;
+import com.polly.R;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.polly;
+package com.baidu;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -19,6 +19,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.baidu.speech.VoiceRecognitionService;
+import com.polly.R;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

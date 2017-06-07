@@ -1,7 +1,7 @@
 /**
  * Copyright (C) 2015 Baidu, Inc. All Rights Reserved.
  */
-package com.polly;
+package com.baidu;
 
 import java.util.HashMap;
 import java.util.List;
@@ -17,6 +17,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.baidu.tts.client.model.ModelInfo;
+import com.polly.R;
 
 /**
  * @author liweigao 2015年12月11日

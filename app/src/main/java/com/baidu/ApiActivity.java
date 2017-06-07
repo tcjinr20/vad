@@ -1,4 +1,4 @@
-package com.polly;
+package com.baidu;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -15,6 +15,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.baidu.speech.VoiceRecognitionService;
+import com.polly.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -54,7 +55,7 @@ public class ApiActivity extends AppCompatActivity implements RecognitionListene
         setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent("com.polly.Setting");
+                Intent intent = new Intent("Setting");
                 startActivity(intent);
             }
         });

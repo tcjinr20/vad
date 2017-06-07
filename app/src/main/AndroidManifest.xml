@@ -9,17 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.baidu.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ApiActivity" />
-        <activity android:name=".ActivityTouch" />
-        <activity android:name=".Setting" />
-        <activity android:name=".TTSActivity"></activity>
+        <activity android:name="com.baidu.ApiActivity" />
+        <activity android:name="com.baidu.ActivityTouch" />
+        <activity android:name="com.baidu.Setting" />
+        <activity android:name="com.baidu.TTSActivity"></activity>
     </application>
 
 </manifest>

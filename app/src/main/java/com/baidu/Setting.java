@@ -1,4 +1,4 @@
-package com.polly;
+package com.baidu;
 
 import android.content.SharedPreferences;
 import android.preference.CheckBoxPreference;
@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
+
+import com.polly.R;
 
 public class Setting extends PreferenceActivity implements Preference.OnPreferenceChangeListener {
 

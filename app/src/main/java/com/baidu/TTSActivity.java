@@ -1,4 +1,4 @@
-package com.polly;
+package com.baidu;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -27,6 +27,7 @@ import com.baidu.tts.client.SpeechSynthesizer;
 import com.baidu.tts.client.SpeechSynthesizerListener;
 import com.baidu.tts.client.SynthesizerTool;
 import com.baidu.tts.client.TtsMode;
+import com.polly.R;
 
 import java.io.File;
 import java.io.FileNotFoundException;

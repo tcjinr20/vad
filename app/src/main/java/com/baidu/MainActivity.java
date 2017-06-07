@@ -1,9 +1,11 @@
-package com.polly;
+package com.baidu;
 
 import android.content.SharedPreferences;
 import android.preference.PreferenceActivity;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+
+import com.polly.R;
 
 public class MainActivity extends PreferenceActivity {
 

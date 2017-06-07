@@ -89,7 +89,7 @@ public class DownloadListAdapter extends BaseAdapter {
             convertView.setTag(vh);
         }
         String modelId = getModelId(position);
-        if (modelId != null) {
+        if (modelId != null){
             ViewHolder vh = (ViewHolder) convertView.getTag();
             vh.modelIdTV.setText(modelId);
             mHolders.put(modelId, vh);

@@ -1,4 +1,4 @@
-package com.iflytek.voicedemo;
+package com.iflytek.voice;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;

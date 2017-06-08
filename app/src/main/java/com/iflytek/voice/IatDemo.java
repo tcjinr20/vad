@@ -1,4 +1,4 @@
-package com.iflytek.voicedemo;
+package com.iflytek.voice;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

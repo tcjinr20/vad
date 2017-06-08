@@ -1,4 +1,4 @@
-package com.iflytek.voicedemo;
+package com.iflytek.voice;
 
 import com.iflytek.ise.result.Result;
 import com.iflytek.ise.result.xml.XmlResultParser;

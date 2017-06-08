@@ -1,7 +1,7 @@
-package com.iflytek.voicedemo;
+package com.iflytek.voice;
 
 import android.app.Application;
-import com.iflytek.cloud.Setting;
+
 import com.iflytek.cloud.SpeechUtility;
 import com.polly.R;
 

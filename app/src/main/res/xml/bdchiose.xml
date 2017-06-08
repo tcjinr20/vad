@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="root_sreen">
-    <Preference android:title="百度模式">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="普通模式">
         <intent
             android:targetClass="com.baidu.ApiActivity"
             android:targetPackage="com.polly">
         </intent>
     </Preference>
-    <Preference android:title="科大讯飞模式">
+    <Preference android:title="点按模式">
         <intent
-            android:targetClass="com.iflytek.voice.IflytekActivity"
+            android:targetClass="com.baidu.ActivityTouch"
             android:targetPackage="com.polly">
         </intent>
     </Preference>
-
 </PreferenceScreen>

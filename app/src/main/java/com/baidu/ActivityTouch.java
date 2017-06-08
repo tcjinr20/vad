@@ -17,6 +17,7 @@ import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.baidu.speech.VoiceRecognitionService;
 import com.polly.R;
@@ -47,14 +48,15 @@ public class ActivityTouch extends AppCompatActivity implements RecognitionListe
         txtLog = (TextView) findViewById(R.id.txtLog);
         btn = (Button) findViewById(R.id.btn);
         setting = (Button) findViewById(R.id.setting);
-        setting.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent("com.polly.setting");
-                startActivity(intent);
-            }
-        });
+//        setting.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                print("click");
+////                Toast.makeText(ActivityTouch.this,"dfs",1);
+////                Intent intent = new Intent("com.baidu.setting");
+////                startActivity(intent);
+//            }
+//        });
         speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this, new ComponentName(this, VoiceRecognitionService.class));
         speechRecognizer.setRecognitionListener(this);
 

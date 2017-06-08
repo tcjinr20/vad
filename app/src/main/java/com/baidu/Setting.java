@@ -17,10 +17,10 @@ public class Setting extends PreferenceActivity implements Preference.OnPreferen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.addPreferencesFromResource(R.xml.setting);
+        addPreferencesFromResource(R.xml.setting);
 
-        PreferenceScreen s = (PreferenceScreen) findPreference("root_screen");
-        bind(s);
+       // PreferenceScreen s = (PreferenceScreen) findPreference("root_screen");
+        //bind(s);
     }
 
     private void bind(PreferenceGroup group) {

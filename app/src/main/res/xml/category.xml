@@ -2,7 +2,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="root_sreen">
     <Preference android:title="百度模式">
         <intent
-            android:targetClass="com.baidu.ApiActivity"
+            android:targetClass="com.baidu.BdActivity"
             android:targetPackage="com.polly">
         </intent>
     </Preference>

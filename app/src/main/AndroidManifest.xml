@@ -20,6 +20,7 @@
         <activity android:name="com.baidu.ActivityTouch" />
         <activity android:name="com.baidu.Setting" />
         <activity android:name="com.baidu.TTSActivity" />
+        <activity android:name="com.baidu.BdActivity" />
         <activity android:name="com.iflytek.voice.IflytekActivity" />
     </application>
 

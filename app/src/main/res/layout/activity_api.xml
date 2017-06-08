@@ -35,7 +35,6 @@
         android:layout_height="wrap_content"
         android:text="@string/setting"
         android:id="@+id/setting"
-        android:onClick="onClick"
         android:layout_alignParentBottom="true" />
 
     <Button
@@ -43,7 +42,6 @@
         android:layout_height="wrap_content"
         android:text="@string/start"
         android:id="@+id/btn"
-        android:onClick="onClick"
         android:layout_alignParentBottom="true" />
 
 </LinearLayout>

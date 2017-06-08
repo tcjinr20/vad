@@ -55,7 +55,8 @@ public class ApiActivity extends AppCompatActivity implements RecognitionListene
         setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent("Setting");
+                print("click");
+                Intent intent = new Intent("com.baidu.Setting");
                 startActivity(intent);
             }
         });
